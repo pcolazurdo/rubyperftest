@@ -1,3 +1,5 @@
+#This only works with JRuby as Celerity only works with it.
+
 require 'thread'
 require "rubygems"
 require "celerity"

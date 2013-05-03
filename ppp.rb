@@ -1,3 +1,4 @@
+#Basic PhantomJS Test from sample
 require 'phantomjs.rb'
 
 script = File.expand_path('./loadspeed.js')

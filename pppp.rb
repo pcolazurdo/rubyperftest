@@ -22,6 +22,7 @@ def test_page
   puts output
 end
  
+# Not using Parallel Threads as PhantomJS Performance decrease exponentially on multiple threads. 
 threads = []
 10.times do
   #threads << Thread.new {test_page} #parallel
