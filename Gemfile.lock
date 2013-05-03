@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celerity (0.9.2)
+    phantomjs-mac (0.0.3)
+    phantomjs.rb (0.0.5)
+      phantomjs-mac
+    thread (0.0.7)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  celerity
+  phantomjs.rb
+  thread
